@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    font-family: Arial, Tahoma;
+    background-color:#000000;
+}
+    #HED {
+        margin: 0 0 20px 0;
+        height: 61px;
+        width:99.9%;
+        display: table;
+        border: 1px solid #00FF00;
+    }
+        #LOGO {
+            float:left;
+            height: 60px;
+            max-width: 21%;
+            background-color:#000000;
+            margin: 0 1px 0 0;
+            display: table-cell;
+
+        }
+        #Register {
+            height: 60px;
+            width: 9%;
+            background-color:#000000;
+            float:right;
+            margin: 2px 0 0 1px;
+            display: table-cell;
+        }
+        #Login {
+            height: 60px;
+            max-width: 9%;
+            background-color:#000000;
+            margin: 0 1px 0 0;
+            float:right;
+            display: table-cell;
+        }
+#ct {
+    width:99%;
+    height:700px;
+    background-color:#1c1c1c;
+    margin:10px 10px 0 10px;
+    float:left
+    }
+SCC
+

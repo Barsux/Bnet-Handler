@@ -1,0 +1,38 @@
+h1 {
+    font-size: 20px;
+    margin:0 0 20px 0;
+    padding-bottom:10px;
+    border-bottom: 1px solid #ccc;
+    color:Green;
+}
+1093
+
+ #LOGO {
+            float:left;
+            height: 60px;
+            max-width: 400px;
+            background-color:#000000;
+
+        }
+        #Register {
+            height: 60px;
+            width: 160px;
+            background-color:#000000;
+            float:right;
+        }
+        #Login {
+            height: 60px;
+            width: 90px;
+            background-color:#000000;
+            margin-right:1;
+            float:right;
+        }
+        #Zaglushka {
+            height: 60px;
+            max-width:100%
+            background-color:#000000;
+            margin:
+    max-width:100%;
+            width:61%;width:61%;
+            min-width:1px;
+            0 1px 0 1px;

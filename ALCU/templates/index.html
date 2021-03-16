@@ -1,0 +1,23 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Barsukland</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+<div id="HED">
+    <div id="LOGO">
+        <a href="{{ url_for('Center') }}"><img src="{{url_for('static', filename='images/Logo2.png')}}" /></a>
+    </div>
+    <div id="Register">
+        <a href="{{ url_for('register') }}"><img src="{{url_for('static', filename='images/reg.png')}}" /></a>
+    </div>
+    <div id="Login">
+        <a href="{{ url_for('logins') }}"><img src="{{url_for('static', filename='images/login.png')}}" /></a>
+    </div>
+</div>
+<div id="ct">
+    <font face="Arial" size="1" color="#00FF00"><b>Это говно работает!</b></font><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Barsukland Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='login.css') }}">
+</head>
+<body>
+<div id="HED">
+    <div id="LOGO">
+        <a href="{{ url_for('Center') }}"><img src="{{url_for('static', filename='images/Logo2.png')}}" /></a>
+    </div>
+</div>
+<div id="ct"><form method = "Post">
+    <div id="form">
+        <h1>Вход</h1>
+        <div id="login"><font face="Arial" size="5px" color="#00FF00"><b>Логин
+                <div id="i1"><input type="text" name = "login"></b></font><br>
+            </div></div>
+        <div id="pass"><font face="Arial" size="5px" color="#00FF00"><b>Пароль
+                <div id="i2"><input type="password" name = "pws"></b></font><br>
+            </div></div>
+        <div id="agree"><font face="Arial" size="5px" color="#00FF00"><b>Пользовательское соглашение
+                <div id="i3"><input type="checkbox" name = "check"></b></font><br>
+            </div></div>
+            <div id="i4"><input type="submit" value = "Войти"></b></font><br>
+            </div>
+    </div></form></div>
+</body>
+</html>

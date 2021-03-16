@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    font-family: Arial, Tahoma;
+    background-color:#000000;
+}
+    #HED {
+        margin: 0 0 20px 0;
+        height: 61px;
+        width:100%;
+        display: table;
+        border: 1px solid #00FF00;
+    }
+        #LOGO {
+            float:left;
+            height: 60px;
+            max-width: 21%;
+            background-color:#000000;
+            margin: 0 1px 0 0;
+            display: table-cell;
+        }
+#ct {
+    width:99%;
+    height:90%;
+    background-color:#1c1c1c;
+    margin:10px 10px 0 10px;
+    float:left
+    }
+#form {
+    margin:40px 0 20px 40px;
+    border: 4px double black;
+    background: #1c1c1c;
+    max-width:40%;
+    min-width:20%;
+}
+input[type="text"] {
+   border: 1px solid #00003;
+   background: #000000 !important;
+   outline: none;
+   height: 36px;
+   width: 240px;
+   color: #00FF00;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight:bold;
+}
+input[type="password"] {
+   border: 1px solid #00003;
+   background: #000000 !important;
+   outline: none;
+   height: 36px;
+   width: 240px;
+   color: #00FF00;
+   font-size: 16px;
+   font-family: Arial;
+   font-weight:bold;
+}
+h1 {
+    text-align:center;
+    font-size:28px;
+    font-family: Arial;
+    font-weight: bold;
+    color:#00FF00;
+}
+#login {
+    margin: 0 0 10px 20px;
+}
+#pass {
+    margin: 0 0 10px 20px;
+}
+#agree {
+    margin: 0 0 10px 20px;
+}
+#i1 {
+    margin:0 0 10px 40px;
+}
+#i2 {
+    margin:0 0 10px 40px;
+}
+#i3 {
+    margin: 0 0 10px 40px;
+}
+input[type=submit] {
+    padding:15px 120px;
+    background:#00FF00;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#i4 {
+    margin: 0 0 10px 40px;
+}
